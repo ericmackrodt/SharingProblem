@@ -1,0 +1,35 @@
+Permissions:
+
+-Owner - Can share
+
+- Permissions when sharing:
+
+#File Permissions
+
+- Full Contol
+
+- Create
+- Download
+- Rename
+- View
+- Move/Copy
+- Share
+- Edit
+- Delete
+- Read Permissions
+- Change Permissions
+
+#Folder Permissions
+
+- Full Control
+
+- Create
+- Download
+- Rename
+- View
+- Move/Copy
+- Share
+- Add/Remove Files
+- Delete
+- Read Permissions
+- Change Permissions

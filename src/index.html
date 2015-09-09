@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sharing solution</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+  <div id="header">
+  	<a href="#" class="header-item" onclick="sharingApp.uploadFile()">Upload File</a>
+  	<a href="#" class="header-item" onclick="sharingApp.createFolder()">Create Folder</a>
+  </div>
+  <div id="content">
+  	<h2>Files</h2>
+	<ul id="itemsList">
+	</ul>
+  </div>
+
+  <!--Popup-->
+
+  <div id="popup" style="display: none">
+  	<div class="header">
+  		Share
+  	</div>
+  	<div class="popupContent">
+  		<div class="item row">
+  			<img class="ico" />
+  			<span class="fileName">fileName</span>
+  		</div>
+  		<h3>Users</h3>
+  		<div class="row">
+  			<input type="text" class="text" id="userName" placeholder="Username" />
+  			<a href="#" class="btn" onclick="sharingApp.addUser()">Add</a>
+  		</div>
+  		<div class="row">
+			<ul id="userList" class="users listBox selectable">
+			</ul>
+  		</div>
+  		<h3>Permissions</h3>
+  		<input type="checkbox" name="ckAllUsers" id="ckAllUsers" value="0">Use same permissions to all users<br>
+  		<input type="checkbox" name="ckFullControl" id="ckFullControl" value="1">Give full control<br>
+  		<div class="row">
+  			<ul id="permissions" class="permissions listBox">
+			</ul>
+  		</div>
+  		<input type="checkbox" name="ckGenerateLink" id="ckGenerateLink" value="1">Generate Link<br>
+  	</div>
+  	<div class="bottom">
+  		<a href="#" class="btn" onclick="sharingApp.share()">Share</a>
+  		<a href="#" class="btn" onclick="sharingApp.cancel()">Cancel</a>
+  	</div>
+  </div>
+</body>
+</html>
