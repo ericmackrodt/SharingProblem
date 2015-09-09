@@ -15,6 +15,8 @@ Other Ideas
 1. After sharing, the users would receive a notification (on the app or via email).
 2. Each file or folder should have buttons to edit, download, view, delete etc. These options would be enabled or disabled based on the user's permissions.
 3. If the user has the permission to share, the share link should be shown even if he doesn't own the file or folder.
+4. When typing an username, the application should suggest the people with whom the user can share the file/folder.
+5. The application should let the user now if he typed an invalid username when sharing a file/folder. 
 
 Permissions
 -----------
